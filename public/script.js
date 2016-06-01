@@ -1,7 +1,9 @@
 var spinning = false;
 
+var FIREBASE_URL = "https://food-wheel.firebaseio.com/foods"
+
 function getFirebase() {
-  return new Firebase("https://food-wheel.firebaseio.com/foods");
+  return new Firebase(FIREBASE_URL);
 }
 
 function exists(name) {
