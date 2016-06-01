@@ -16,8 +16,10 @@ git clone git@github.com:tildedash/food-wheel.git
 Replace the _FIREBASE_URL_ in the file _script.js_ with your own firebase URL:
 
 `````
-var FIREBASE_URL = "https://<your firebase>.firebaseio.com/<your dataset name>"
+var FIREBASE_URL = "https://<your firebase>.firebaseio.com/foods"
 ````
+
+If you replace _foods_ in the path, you will have to update the Firebase rules (R/W on your dataset and RO for everything else).
 
 Update the firebase config file:
 
