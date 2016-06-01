@@ -1,0 +1,55 @@
+h1 {
+  color: #66cccc;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+#wheel-data {
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 100px;
+  border: 0px;
+  min-height: 100px;
+}
+
+#wheel-data.display {
+  display: block;
+  border: 1px solid black;
+}
+
+
+
+#wheel-data ul {
+  list-style-type: none;
+}
+
+#wheel-data li {
+  display: none;
+}
+
+#wheel-data li.display {
+  display: inline-block;
+}
+
+button {
+  height: 100px;
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
+  color: #66cccc;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
+  display: none;
+  margin-top: 40px;
+}
+
+button.display {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}

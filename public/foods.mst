@@ -1,0 +1,5 @@
+<ul>
+  {{#foods}}
+    <li>{{name}} ({{type}})</li>
+  {{/foods}}
+</ul>
