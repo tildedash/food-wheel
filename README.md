@@ -13,13 +13,13 @@ Clone the repo:
 git clone git@github.com:tildedash/food-wheel.git
 `````
 
-Replace the _FIREBASE_URL_ in the file _script.js_ with your own firebase URL.
+Replace the _FIREBASE_URL_ in the file _script.js_ with your own firebase URL:
 
 `````
 var FIREBASE_URL = "https://<your firebase>.firebaseio.com/<your dataset name>"
 ````
 
-Update the firebase config file :
+Update the firebase config file:
 
 `````
 {
@@ -30,7 +30,18 @@ Update the firebase config file :
 
 `````
 
-Deploy on Firebase :
+or run:
+
+`````
+
+rm .firebaserc
+
+firebase login
+
+firebase init
+````
+
+Deploy on Firebase:
 
 ````
 firebase deploy
