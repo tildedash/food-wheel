@@ -1,4 +1,1 @@
-{
-  ".read": true,
-  ".write": true
-}
+{".read":true,".write":false, "foods": {".read":true,".write":true}}
